@@ -1,0 +1,29 @@
+Aula 00 - APIs
+
+Manuela Pereira
+
+
+API escolhida: 
+
+Escolhi a PokéAPI, uma API RESTful, ela está disponível em: https://pokeapi.co/
+
+
+O que ela faz? Para o que ela serve?
+
+A API escolhida serve para para acessar uma base de dados que detalha tudo quase tudo sobre a série de jogos Pokémon.
+
+
+Que dados recebe (REQUEST)?
+
+A API recebe um pedido sobre que pokémon, item, abilidades, tipos, golpes, grupos de ovos, versões de jogos, cadeias de evoluções e pokedexes que se busca receber, exemplos incluem: “pokemon/mewtwo”, “ability/battle-armor”, “type/3”.
+
+
+Que dados retorna (RESPONSE)?
+
+A API retorna os dados detalhes sobre o que foi pedido no request, como os dados sobre o Pokémon Mewtwo, como no exemplo anterior.
+
+
+Quais métodos do protocolo HTTP utiliza (GET, POST, PUT, DELETE, PATCH)? Explique a utilização.
+
+
+

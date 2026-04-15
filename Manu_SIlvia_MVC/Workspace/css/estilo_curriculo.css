@@ -1,0 +1,32 @@
+
+body {
+    font-family: "BlexMono Nerd Font", monospace;
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:darkorchid;
+    font-size: 40px;
+}
+
+h2{
+    color:deeppink;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+ul{
+    color:deeppink;
+}
+
+a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    text-decoration: none;
+}
+
+li{
+    font-size: 20px;
+}
