@@ -25,3 +25,17 @@ npm run migration:generate ./src/shared/typeorm/migrations/CreateProducts
 
 npm i celebrate
 npm i -D @types/joi
+
+docker run --name postgres -e POSTGRES_PASSWORD=senha -p 5433:5432 -d postgres
+
+
+npx ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js
+migration:generate ./src/shared/typeorm/migrations/CreateMouses -d
+src/shared/typeorm/data-source.ts
+
+npm run migration:generate ./src/shared/typeorm/migrations/CreateMouses
+
+npx typeorm-ts-node-commonjs migration:revert -d ./src/shared/typeorm/data-source.ts
+
+
+"typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
